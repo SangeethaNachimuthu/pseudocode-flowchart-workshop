@@ -1,6 +1,6 @@
 START
     INPUT number
-    IF (number % == 0) THEN
+    IF (number % 2 == 0) THEN
         PRINT The number is EVEN
     ELSE
         PRINT The number is ODD
