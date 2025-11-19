@@ -1,0 +1,8 @@
+START
+    INPUT number
+    IF (number % == 0) THEN
+        PRINT The number is EVEN
+    ELSE
+        PRINT The number is ODD
+    ENDIF
+END
