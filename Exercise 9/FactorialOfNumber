@@ -1,7 +1,7 @@
 START
     INPUT num
     fact = 1
-    FOR (int i=1; i<=num; i++)
+    FOR i = 1 TO num DO
         fact = fact * i 
     END FOR
     PRINT "Factorial of a Number is +fact"
