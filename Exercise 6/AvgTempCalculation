@@ -1,0 +1,9 @@
+START
+    total = 0, average = 0
+    REPEAT 7 TIMES
+        INPUT temp
+        total = total + temp
+    ENDREPEAT
+    average = total / 7
+    PRINT "Average Temperature is ", average
+END
