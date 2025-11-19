@@ -1,0 +1,8 @@
+START
+    INPUT A,B and C
+    total = 0, average = 0
+    total = A + B + C
+    average = total / 3
+    PRINT "Total marks is "+total
+    PRINT "Average is "+average
+END
