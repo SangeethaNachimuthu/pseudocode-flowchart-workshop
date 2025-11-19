@@ -1,0 +1,6 @@
+START
+    INPUT L and W
+    Area = 0
+    Area = L * W
+    PRINT "Area of Rectangular is "+Area
+END
