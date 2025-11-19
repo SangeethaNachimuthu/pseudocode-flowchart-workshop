@@ -1,0 +1,11 @@
+START
+    INPUT marks A, B, C, D and E
+    total = 0, average = 0
+    total = A+B+C+D+E
+    average = total / 5
+    IF average >= 50 THEN
+        PRINT Pass
+    ELSE
+        PRINT Fail
+    END IF
+END
