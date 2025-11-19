@@ -1,0 +1,10 @@
+START
+    INPUT amt
+    discountedAmt = 0
+    IF (amt > 1000) THEN
+        discountedAmt = (amt * 90) / 100
+        PRINT "Amount to be paid after the discound is "+discountedAmt
+    ELSE
+        PRINT "Amount to be paid is "+amt
+    END IF
+END
