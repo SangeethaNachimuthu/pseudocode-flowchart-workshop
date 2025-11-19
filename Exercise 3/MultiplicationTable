@@ -1,0 +1,6 @@
+START
+    INPUT number
+    FOR (int i=1; i<=10; i++) THEN
+        PRINT (i+"*"+number+"="+(i*number))
+    END FOR
+END
