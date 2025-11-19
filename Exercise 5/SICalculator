@@ -1,0 +1,6 @@
+START
+    INPUT P, R and T
+    SI = 0.0
+    SI = (P * R * T) / 100
+    PRINT "The Simple Interest is "+SI
+END
